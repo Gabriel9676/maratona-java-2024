@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava;
+package academy.devdojo.maratonajava.introducao;
 
 public class Aula06EstrutudasDeRepeticao03 {
     // Imprima os primeiros 25 numeros de um dado valor. Por exemplo 50
