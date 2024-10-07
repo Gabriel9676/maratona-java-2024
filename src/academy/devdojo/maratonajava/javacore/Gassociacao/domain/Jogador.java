@@ -16,6 +16,7 @@ public class Jogador {
         this.nome = nome;
     }
 
+
     public Time getTime() {
         return time;
     }
