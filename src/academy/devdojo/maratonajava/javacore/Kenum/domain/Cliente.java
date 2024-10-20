@@ -4,9 +4,18 @@ public class Cliente {
     private String noma;
     private TipoCliente tipoCliente;
 
+
     public Cliente(String noma, TipoCliente tipoCliente) {
         this.noma = noma;
         this.tipoCliente = tipoCliente;
+    }
+
+    @Override
+    public String toString() {
+        return "Cliente{" +
+                "noma='" + noma + '\'' +
+                ", tipoCliente=" + tipoCliente +
+                '}';
     }
 
     public String getNoma() {
