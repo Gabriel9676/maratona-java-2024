@@ -2,11 +2,11 @@ package academy.devdojo.maratonajava.javacore.Kenum.domain;
 
 public class Cliente {
     private String noma;
-    private String tipo;
+    private TipoCliente tipoCliente;
 
-    public Cliente(String noma, String tipo) {
+    public Cliente(String noma, TipoCliente tipoCliente) {
         this.noma = noma;
-        this.tipo = tipo;
+        this.tipoCliente = tipoCliente;
     }
 
     public String getNoma() {
@@ -17,11 +17,11 @@ public class Cliente {
         this.noma = noma;
     }
 
-    public String getTipo() {
-        return tipo;
+    public TipoCliente getTipoCliente() {
+        return tipoCliente;
     }
 
-    public void setTipo(String tipo) {
-        this.tipo = tipo;
+    public void setTipoCliente(TipoCliente tipoCliente) {
+        this.tipoCliente = tipoCliente;
     }
 }
